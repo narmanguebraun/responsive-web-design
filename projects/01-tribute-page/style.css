@@ -1,0 +1,44 @@
+*, *::before, *::after {box-sizing:border-box;}
+* {margin:0;padding:0;}
+ul, ol{list-style-type:none;}
+
+body {
+  font-family: 'Helvetice Neue', sans-serif;
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:0.0375em;
+  line-height:1.5rem;
+  background:#000;
+  color:#bbb;
+}
+p {
+  margin:0 0 1.5rem;
+}
+
+a {
+  text-decoration:none;
+  color:#c91248;
+  border-bottom:solid 1px #c91248;
+}
+#main {
+  max-width:600px;
+  margin:120px auto;
+}
+#title {
+  text-align:center;
+  color:#fff;
+}
+#img-div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:120px 0;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+
+
+
+Resources

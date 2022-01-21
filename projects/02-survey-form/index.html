@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <meta name="description" content="Bookmark your favorite websites.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=narmanguebraun.github.io">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main class="main">
+  <div>
+  <h1 id="title">Small Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform.</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <label class="form-title" id="name-label" for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </div>
+    <div class="form-group">
+      <label class="form-title" id="email-label" for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email address" required>
+    </div>
+    <div class="form-group">
+      <label class="form-title" id="number-label" for="number">Age</label>
+      <input type="number" id="number" name="number" placeholder="Age" min="1" max="99">
+    </div>
+    <div class="form-group">
+      <p class="form-title">What type of information are you mostly interested in?</p>
+      <select id="dropdown" class="form-options" name="categories">
+        <option value="">-- Please choose an option --</option>
+        <option value="culture">Culture</option>
+        <option value="fashion">Fashion</option>
+        <option value="lifestyle">Lifestyle</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p class="form-title">Would you be interested in receiving a weekly newsletter?</p>
+      <label class="option"><input type="radio" name="weekly-newsletter" value="yes"><span class="opt">Yes</span></label>
+      <label class="option"><input type="radio" name="weekly-newsletter" value="maybe"><span class="opt">Maybe</span></label>
+      <label class="option"><input type="radio" name="weekly-newsletter" value="no"><span class="opt">No</span></label>
+    </div>
+    <div class="form-group">
+      <p class="form-title">Which topic are you sensitive to?</p>
+      <label class="option"><input type="checkbox" name="topic" value="new"><span class="opt">New Arrivals</span></label>
+      <label class="option"><input type="checkbox" name="topic" value="sustainability"><span class="opt">Sustainability</span></label>
+      <label class="option"><input type="checkbox" name="topic" value="organic"><span class="opt">Natural and Organic Products</span></label>
+
+    </div>
+    <div class="form-group">
+      <p class="form-title">Any comment or suggestion?</p>
+      <textarea id="comment" name="comment" placeholder="Add a comment"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-btn">Submit</button>  
+    </div>
+   </form>
+  </div>
+</main>
+</body>
+</html>
